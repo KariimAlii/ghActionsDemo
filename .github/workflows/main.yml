@@ -11,3 +11,9 @@ jobs:
     steps:
       - name: Print a Welcome Message
         run: echo "Welcome to my App"
+
+      - name: Checkout Repository
+        uses: actions/checkout@v5.0.0
+
+      - name: Listing Repository Files
+        run: ls -la
