@@ -1,0 +1,9 @@
+{
+    "name":"node-app",
+    "main":"src/app.js",
+    "description": "Simpe Node App",
+    "scripts": {
+        "test": "bash src/test.sh"
+    },
+    "dependencies": {}
+}
