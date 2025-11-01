@@ -1,6 +1,6 @@
 #!/bin/bash
 
-output=$(node app.js)
+output=$(node src/app.js)
 
 if [ "$output" = "Hellooo Karim" ]; then
     echo "✅ Test passed: $output"
