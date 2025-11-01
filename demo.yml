@@ -1,0 +1,74 @@
+# This line represents UserName
+name: Karim
+age: 30
+salary: 5350.50
+username: Karim_Ali
+employment_date: 2025-02-01T14:30:00Z
+direct_manager: Moustafa
+
+# This line defines user's address
+serial_number: "0050"
+regex: "[A-Za-z]"
+
+message: "Hello\nWorld"  #Hello
+                         #World
+
+path: "C:\\Users\\Admin" # C:\Users\Admin
+
+quote: "It's a yaml"
+
+s_message: 'Hello\nWorld' # Hello\nWorld
+s_path: 'C:\Users\Admin' # C:\Users\Admin
+s_quote: 'It''s a yaml' # It's a yaml
+
+long_message: |
+  Hello
+  Ahmed
+  How are you?
+
+# Hello
+# Ahmed
+# How are you?
+
+folded_message: >
+  Hello
+  Ahmed
+  How are you?
+
+  This is a new line
+
+# Hello Ahmed How are you?
+# This is a new line
+
+
+# list & map
+employee:
+  - name: Ahmed Salah
+    age: 35
+    contact:
+      email: ahmed@example.com
+  - name: Sara Mohamed
+    age: 25
+    contact:
+      email: sara@example.com 
+  - name: Khaled Mohamed
+    age: 40
+    contact:
+      email: khaled@example.com 
+
+servers:
+  production:
+    - host: prod1.example.com
+      ip: 192.168.1.10
+    - host: prod2.example.com
+      ip: 192.168.1.11
+  staging:
+    - host: stag1.example.com
+      ip: 192.168.1.10
+    - host: stag2.example.com
+      ip: 192.168.1.10
+  development:
+    - host: dev1.example.com
+      ip: 192.168.1.10
+    - host: dev2.example.com
+      ip: 192.168.1.10
