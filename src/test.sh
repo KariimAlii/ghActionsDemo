@@ -2,7 +2,7 @@
 
 output=$(node src/app.js)
 
-if [ "$output" = "Hellooo Karim" ]; then
+if [ "$output" = "Hellooo World" ]; then
     echo "✅ Test passed: $output"
 else
     echo "❌ Test failed: got \"$output\""
